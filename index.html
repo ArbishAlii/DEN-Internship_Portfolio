@@ -20,11 +20,16 @@
       </nav>
     </header>
 
-
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hey! I'm a passionate web developer currently pursuing my degree in Computer Science. I enjoy creating clean, user-friendly websites and learning new technologies to improve my skills. I have hands-on experience with HTML, CSS, JavaScript, React and Python, and I'm currently working on real-world projects to expand my portfolio. My goal is to build responsive and accessible websites that provide a great user experience.
+        Hey! I'm a passionate web developer currently pursuing my degree in
+        Computer Science. I enjoy creating clean, user-friendly websites and
+        learning new technologies to improve my skills. I have hands-on
+        experience with HTML, CSS, JavaScript, React and Python, and I'm
+        currently working on real-world projects to expand my portfolio. My goal
+        is to build responsive and accessible websites that provide a great user
+        experience.
       </p>
     </section>
 
@@ -38,56 +43,95 @@
         <li>Python</li>
       </ul>
     </section>
-<section id="projects">
-  <h2>My Projects</h2>
-  <div class="project-grid">
-    <div class="project-card">
-      <h3>Portfolio Website</h3>
-      <p>A personal website with responsive layout using HTML, CSS, and JavaScript. Includes Home, About, and Contact pages.</p>
-    </div>
-    <div class="project-card">
-      <h3>Todo App</h3>
-      <p>A lightweight task tracker with add/delete/complete functionality using JavaScript and local storage.</p>
-    </div>
-    <div class="project-card">
-      <h3>Image Gallery</h3>
-      <p>An interactive gallery with scrollable thumbnails and responsive design built with Flexbox and JavaScript.</p>
-    </div>
-    <div class="project-card">
-      <h3>Calculator</h3>
-      <p>A functional calculator that performs basic arithmetic operations with a clean UI using pure JavaScript.</p>
-    </div>
-    <div class="project-card">
-      <h3>Music Player</h3>
-      <p>A JavaScript-based music player with play/pause and track navigation controls built using the Web Audio API.</p>
-    </div>
-    <div class="project-card">
-      <h3>Dynamic Blog</h3>
-      <p>A blog layout with expandable "Read More" functionality using JavaScript to toggle hidden content dynamically.</p>
-    </div>
-  </div>
-</section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <a href="https://my-personal-portfolio-lac-one.vercel.app/"
+            ><img src="asset/portfolio.png" alt=""
+          /></a>
 
+          <h3>Portfolio Website</h3>
+          <p>
+            A personal website with responsive layout using HTML, CSS, and
+            JavaScript. Includes Home, About, and Contact pages.
+          </p>
+        </div>
+        <div class="project-card">
+          <a href="https://dynamic-resume-builder-milestone3-one.vercel.app/"
+            ><img src="asset/resume-builder.png" alt=""
+          /></a>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>Kindly fill out the neccessary requirements to have a Chat!</p>
-      <form>
-        <label for="name">Name:</label>
-        <input type="name" aria-label="Enter Your name" id="name" />
+          <h3>Resume Builder</h3>
+          <p>A dynamic resume builder to create your resume within minutes.</p>
+        </div>
+        <div class="project-card">
+          <a href="https://code-alpha-image-gallery-sigma.vercel.app/"
+            ><img src="asset/img-gal.png" alt=""
+          /></a>
+          <h3>Image Gallery</h3>
+          <p>
+            An interactive gallery with scrollable thumbnails and responsive
+            design built with Flexbox and JavaScript.
+          </p>
+        </div>
+        <div class="project-card">
+          <a href="https://code-alpha-calculator-red.vercel.app/"
+            ><img src="asset/cal.png" alt=""
+          /></a>
+          <h3>Calculator</h3>
+          <p>
+            A functional calculator that performs basic arithmetic operations
+            with a clean UI using pure JavaScript.
+          </p>
+        </div>
+        <div class="project-card">
+          <a href="https://code-alpha-music-player-lac.vercel.app/"
+            ><img src="asset/music-player.png" alt=""
+          /></a>
+          <h3>Music Player</h3>
+          <p>
+            A JavaScript-based music player with play/pause and track navigation
+            controls built using the Web Audio API.
+          </p>
+        </div>
+        <div class="project-card">
+          <a href="https://dynamic-blog-eight.vercel.app/"
+            ><img src="asset/blog.png" alt=""
+          /></a>
+          <h3>Dynamic Blog</h3>
 
-        <label for="name">E-mail:</label>
-        <input type="email" aria-label="Enter Your Email" id="email" />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-      </form>
-      <div class="buttton-wrapper">
-        <button type="submit">Send</button>
+          <p>
+            A blog layout with expandable "Read More" functionality using
+            JavaScript to toggle hidden content dynamically.
+          </p>
+        </div>
       </div>
     </section>
 
+    <section id="contact">
+  <h2>Contact Me</h2>
+
+  <form>
+    <p>Kindly fill out the necessary requirements to have a Chat!</p>
+
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required aria-label="Enter Your Name" />
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required aria-label="Enter Your Email" />
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <div class="button-wrapper">
+      <button type="submit">Send</button>
+    </div>
+  </form>
+</section>
+
+
     <footer>&copy; Arbish Ali ~2025 | All rights reserved</footer>
-    <script src="main.js"> </script>
+    <script src="main.js"></script>
   </body>
 </html>

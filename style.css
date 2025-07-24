@@ -81,7 +81,10 @@ h2 {
   margin-bottom: 30px;
   color: #4b0082;
 }
-
+img{
+  height: 150px;
+  width: 100%;
+}
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
